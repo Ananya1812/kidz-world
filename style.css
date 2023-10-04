@@ -5,68 +5,57 @@
   padding: 0;
 }
 
-body
-{
+body {
   font-family: "Rubik", sans-serif;
 }
 
-.books 
-{
+.books {
   max-width: 200px;
 }
 
 .games,
-.crafts 
-{
+.crafts {
   max-width: 300px;
 }
 
-.flex 
-{
+.flex {
   display: flex;
 }
 
-.section-container 
-{
+.section-container {
   flex-direction: column;
   padding: 5%;
 }
 
-.space-between 
-{
+.space-between {
   justify-content: space-between;
   align-items: center;
 }
 
-.space-evenly 
-{
+.space-evenly {
   justify-content: space-evenly;
 }
 
-nav 
-{
+nav {
   height: 50px;
   width: 100%;
 }
 
-nav>div 
-{
+nav > div {
   padding: 0% 5%;
 }
 
-nav img 
-{
+nav img {
   height: 30px;
 }
 
-#cart 
-{
+#cart {
   font-weight: bold;
   align-items: center;
+  cursor: pointer;
 }
 
-header 
-{
+header {
   height: 500px;
   width: 100%;
   background-image: url("./assets/kw-background.png");
@@ -74,32 +63,27 @@ header
   color: white;
 }
 
-.header-text 
-{
+.header-text {
   flex-direction: column;
   max-height: 100%;
   max-width: 20%;
   padding: 4% 5%;
 }
 
-header h1 
-{
+header h1 {
   font-size: 7vh;
 }
 
-header h5 
-{
+header h5 {
   font-size: 23px;
   margin-top: 20px;
 }
 
-.section
-{
+.section {
   margin: 4% 0%;
 }
 
-.button 
-{
+.button {
   cursor: pointer;
   background-color: #6095ff;
   color: white;
@@ -107,20 +91,18 @@ header h5
   border-radius: 4px;
 }
 
-.buy img
-{
+.buy img {
   width: 20px;
   padding-left: 5px;
 }
 
-.buy 
-{
+.buy {
   margin-top: 15px;
   padding-bottom: 50px;
 }
 
 footer {
-
+  /* max-height: 300px; */
   background-image: url("http://i1.faceprep.in/prograd-junior/footer-bg.png");
   background-size: 100% 100%;
   color: white;
